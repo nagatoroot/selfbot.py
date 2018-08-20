@@ -299,11 +299,11 @@ class Information:
         uptime = fmt.format(d=days, h=hours, m=minutes, s=seconds)
 
         github = '[Click Here](https://github.com/kyb3r/selfbot.py/)'
-        server = '[Click Here](https://discord.gg/2B4UvKx)'
+        server = '[Click Here](https://discord.gg/vwkKEHQ)'
         website = '[selfbot-py.tk](http://selfbot-py.tk/)'
 
 
-        embed.add_field(name='Author', value='kyb3r#7220')
+        embed.add_field(name='Author', value='幺~|Nagato#5186')
         embed.add_field(name='Uptime', value=uptime)
         embed.add_field(name='Guilds', value=len(self.bot.guilds))
         embed.add_field(name='Members', value=f'{total_unique} total\n{total_online} online')
